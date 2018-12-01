@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Stuart Quiz!</title>
+<link href="homepagestyle.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body onload="timeBirth()">
+  <script type="text/javascript" src="homepage.js"></script>
+
+<div id="wrapper">
+
+  <div id="title">
+    <img class="imgboxright" id="Funny" src="Images/Funny.jpg" alt="Funny" />
+    <h2>Stuart.</h2>
+  </div>
+
+  <div id="content">
+    <!--Inputting a form along with true or false questions for a neat little quiz -->
+    <form name="Quiz" action="">
+    <h3 id="bigTitle"> How Well Do You Know Stuart?</h3>
+    <p>1. Stuart has an INFJ personality.</p>
+    <label for="True">True</label>
+    <input type="radio" name="INFJ" value="true"></input>
+    <label for="False">False</label>
+    <input type="radio" name="INFJ" value="false"></input>
+
+    <img class="imgboxright" id="Stuart" src="Images/Stuart.jpg" alt="Stuart" />
+
+    <p>2. Stuart has more than 2 friends.</p>
+    <label for="True">True</label>
+    <input type="radio" name="2friends" value="true"></input>
+    <label for="False">False</label>
+    <input type="radio" name="2friends" value="false"></input>
+
+    <p>3. Stuart is excited to leave his past behind and move into the future.</p>
+    <label for="True">True</label>
+    <input type="radio" name="past" value="true"></input>
+    <label for="False">False</label>
+    <input type="radio" name="past" value="false"></input>
+
+    <p>4. Stuart was a golden child with absolutely no problems whatsoever.</p>
+    <label for="True">True</label>
+    <input type="radio" name="child" value="true"></input>
+    <label for="False">False</label>
+    <input type="radio" name="child" value="false"></input>
+
+    <p>5. Lauren is a... unique sort of person.</p>
+    <label for="True">True</label>
+    <input type="radio" name="unique" value="true"></input>
+    <label for="False">False</label>
+    <input type="radio" name="unique" value="false"></input>
+
+    <br></br>
+    <!-- begins to check answers through javascript -->
+    <button type="button" onclick="CheckAnswers()">Submit</button>
+    <br></br>
+    <p id="Answers"></p>
+  </form>
+  </div>
+
+  <div id="nav">
+     <ul class="navlist">
+       <li> <a href="homepage.html">Home</a> </li>
+       <li> <a href="friendspage.html">Friends</a></li>
+       <li> <a href="quizpage.html">Quiz!</a></li>
+     </ul>
+   </div>
+
+  <div id="footer">
+    <h3 id="tB"></h3>
+  </div>
+
+</div>
+
+</body>
+
+</html>

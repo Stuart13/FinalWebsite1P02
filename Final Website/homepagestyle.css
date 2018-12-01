@@ -1,0 +1,203 @@
+body{
+	background-color: #1515AB;
+}
+
+#wrapper{
+	width:80%;
+	height: 721px;
+  margin: 0 auto;
+  margin-top: 2%;
+	background-color: grey;
+  border: 3px solid black;
+}
+
+/*Specific wrapper for the friendspage.html */
+#friendwrapper {
+	width:80%;
+	height: 2500px;
+	margin: 0 auto;
+	margin-top: 2%;
+	background-color: grey;
+	border: 3px solid black;
+}
+
+#title{
+	height: 50px;
+	text-align: left;
+  text-decoration-line: underline;
+  padding-top: 0.01%;
+  padding-left: 2%;
+  padding-bottom: 1%;
+  background-color: #A764FF;
+  border-bottom: 3px solid black;
+}
+
+/*separates timer from edge of footer */
+#tB {
+padding-left: 2%;
+}
+
+/*Changes the size of the article titles*/
+#bigTitle {
+	font-size: 20px;
+}
+
+#content{
+  float: right;
+  width: 82%;
+  background-color: #E9E9EA;
+  height: 577px;
+  padding-left: 2%;
+  padding-right: 1%;
+}
+
+/* Specific content specifications for friendspage.html*/
+#friendcontent {
+	float: right;
+	width: 82%;
+	background-color: #E9E9EA;
+	height: 2357px;
+	padding-left: 2%;
+	padding-right: 1%;
+}
+
+p {
+  font-size: medium;
+  font-family: serif;
+  line-height: 1.7;
+}
+
+/*The next style changes are all to create hover and click effects over the links */
+a {
+	color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+/*Link button code adopted and edited from w3schools.com */
+.navlist {
+  list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #E9E9EA;
+border-bottom: 3px solid black;
+position: fixed;
+}
+
+li a {
+	display: inline-block;
+padding-top: 5%;
+padding-bottom: 5%;
+padding-left: 10%;
+padding-right: 130px;
+border-top: 3px solid black;
+text-decoration: none;
+}
+
+li a:hover {
+    background-color: grey;
+}
+
+li a:active {
+	background-color: grey;
+	color: #3D0685;
+}
+
+/*Specifications for images on the left and right sides of the screen*/
+.imgboxright {
+  float: right;
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  border: #3D0685 2px SOLID;
+}
+
+.imgboxleft {
+	float: left;
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  border: #3D0685 2px SOLID;
+}
+
+/*Specifications for friend pictures */
+#Lauren {
+	height: 11%;
+	width: 20%;
+}
+
+#Shrishan {
+height: 15%;
+width: 15%;
+}
+
+#Michelle {
+	height: 10%;
+	width: 15%;
+}
+
+#Greg {
+	height: 35%;
+	width: 20%;
+}
+
+#Justasia {
+	height: 20%;
+	width: 20%;
+}
+
+#Max {
+	height: 14%;
+	width: 20%;
+}
+
+#Ariana {
+	min-height: 25%;
+	width: 20%;
+}
+
+#Monique {
+	height: 20%;
+	width: 20%;
+}
+
+#Stuart {
+	height: 40%;
+	width: 40%;
+}
+
+#Funny {
+	height: 90%;
+	width: 5%;
+}
+
+#nav{
+	float:left;
+	width:14.75%;
+  height: 577px;
+	background-color: #A764FF;
+  border-right: 3px solid black;
+}
+
+/*Specific navigation for friendspage.html*/
+#friendnav {
+	float:left;
+	width:14.75%;
+	height: 2357px;
+	background-color: #A764FF;
+	border-right: 3px solid black;
+}
+
+#footer{
+  background-color: #A764FF;
+	height: 75px;
+  clear:both;
+  padding:1px;
+  border-top: 3px solid black;
+}
